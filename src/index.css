@@ -1,0 +1,70 @@
+* {
+  background-color: rgb(46, 46, 5);
+  color: white;
+  font-family: 'Recursive', sans-serif;
+}
+.container {
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 500px;
+
+}
+
+
+#form-container {
+  margin-bottom: 20px;
+  width: 50%;
+}
+#list-container {
+  margin-top: 20px;
+  width: 100%;
+  
+}
+table {
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.edit-button, .delete-button {
+  padding: 5px;
+  border: 2px solid rgb(167, 167, 118);
+  border-radius: 10px;
+  color: #ddd;
+  background-color: rgb(54, 76, 10);
+  cursor: pointer;
+}
+.edit-button, .delete-button:hover {
+  background-color: black;
+  color: rgb(178, 178, 178);
+  border-color: rgb(188, 188, 188);
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  background-color: rgb(165, 165, 0);
+}
+.s-button {
+  width: 100%;
+  margin-left: 10px;
+  padding: 5px;
+  border: 2px solid rgb(167, 167, 118);
+  border-radius: 10px;
+  color: #ddd;
+  background-color: rgb(54, 76, 10);
+  cursor: pointer;
+}
+.s-button:hover {
+  background-color: black;
+  color: rgb(178, 178, 178);
+  border-color: rgb(188, 188, 188);
+}
+.h-table {
+  width: 52%;
+  gap: 10px;;
+}
